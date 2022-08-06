@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
 }
 
 .App {
@@ -11,22 +13,19 @@
 }
 
 .telegram-callback {
-    position: absolute;
-    top: 45%;
-    left: 28%;
-    font-family: monospace;
-    font-size: 29px;
-    color: rgba(5, 5, 65, 0.7);
-    font-style: italic;
+    left: 5%;
+    top: 5%;
 }
 
 .github-link {
-    position: absolute;
-    top: 69%;
-    left: 55%;
+    left: 5%;
+    top: 10%;
 }
 
-.github-link img {
-    width: 50px;
-    transform: rotate(5deg);
+.github-link, .telegram-callback {
+    position: fixed;
+    font-family: monospace;
+    font-style: italic;
+    color: white;
+    font-size: 130%;
 }

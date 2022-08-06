@@ -11,7 +11,7 @@ function App() {
 				className="telegram-callback">Написать в телеграм</a>
 			<a
 				href="https://github.com/marc1k3y"
-				className="github-link"><img src={githubPic} /></a>
+				className="github-link">GitHub</a>
 		</div>
 	)
 }
