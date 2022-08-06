@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import mainPic from "./assets/main.jpg"
+import githubPic from "./assets/github.svg"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<img src={mainPic} />
+			<a
+				href="https://t.me/marc1k3y"
+				className="telegram-callback">Написать в телеграм</a>
+			<a
+				href="https://github.com/marc1k3y"
+				className="github-link"><img src={githubPic} /></a>
+		</div>
+	)
 }
 
-export default App;
+export default App

@@ -1,38 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.telegram-callback {
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    font-family: monospace;
+    font-size: 29px;
+    color: rgba(5, 5, 65, 0.7);
+    font-style: italic;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.github-link {
+    position: absolute;
+    top: 69%;
+    left: 55%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.github-link img {
+    width: 50px;
+    transform: rotate(5deg);
 }
